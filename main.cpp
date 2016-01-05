@@ -3,13 +3,16 @@
 #include <stdio.h>
 #include <iostream>
 using namespace std;
+//Creacion de variables necesarias para el programa
 int randNum;
 int prediccion;
 int intentos = 3;
 
 int main(){
-	srand(time(NULL));
-	randNum = (rand()%10)+1;
+	srand(time(NULL)); //Creacion de semilla para generacion de numeros aleatorios basado en el tiempo actual para mayor aletoriedad
+	
+	randNum = (rand()%10)+1; // Se deterina el numero aleatorio y se modula por 10 para obtener un entero entre 1 y 10 exclusivamente
+	
 	cout <<"Estoy pensando un numero entre 1 y 10... Adivinalo! " <<endl;
 	
 	do{
