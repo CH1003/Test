@@ -56,6 +56,7 @@ int main(){
 	cout <<"Adivinaste!"<<endl;
 	}
 	
+	//Test
 	cout << "Deseas jugar otra vez? -> 1 = SI | 2 = NO" << endl;
 	cin >> retry;
 	if (retry == 1){
