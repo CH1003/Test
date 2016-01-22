@@ -37,7 +37,7 @@ int main(){
 	
 	
 	cout <<"Estoy pensando un numero entre 1 y 10... Adivinalo! " <<endl;
-	
+	//PRUEBA
 	do{
 		cout <<"Tienes "<< intentos << " intentos." << endl;
 		cin >> prediccion;
